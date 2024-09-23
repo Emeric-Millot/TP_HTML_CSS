@@ -1,0 +1,93 @@
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+}
+
+h2{
+    color: black;
+} 
+
+/* Style général */
+@media (max-width: 768px) { /* Styles pour les petits écrans */
+body {
+    background-color: rgb(159, 159, 57);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    }
+}
+
+/* Style du header */
+header {
+    background-color: #f4a261;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.sourit img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Style du main */
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: #f0efeb;
+}
+
+.copains {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.copains img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.copains h2 {
+    grid-column: 1 / -1;
+    font-size: 2rem;
+    color: #2a9d8f;
+}
+
+.copains p {
+    grid-column: 1 / -1;
+    font-size: 1.2rem;
+}
+
+/* Style du footer */
+footer {
+    background-color: #264653;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 3fr;
+}
+
+a {
+    color: #e9c46a;
+    text-decoration: none;
+}
+
+.mention {
+    background-color: #264653;
+    color: #e9c46a;
+}
